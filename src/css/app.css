@@ -1,0 +1,25 @@
+.App
+{
+    height: 100%;
+}
+
+.App .bodyArea
+{
+    height:100%;
+    padding-top: 65px;
+}
+
+.App .loadingCover
+{
+    position: fixed;
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+::placeholder
+{
+    color: #999999;
+}

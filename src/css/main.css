@@ -1,0 +1,27 @@
+.mainArea
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    column-gap: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+
+.mainArea .title
+{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mainArea p
+{
+    padding-right: 160px;
+    line-height: 25px;
+}
+
+.mainArea .icon
+{
+    height: 140px;
+}

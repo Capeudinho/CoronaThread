@@ -1,0 +1,26 @@
+.backgroundArea
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.backgroundArea .firstLayer
+{
+    height: 100%;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #1e2533;
+}
+
+.backgroundArea .secondLayer
+{
+    height: 100%;
+    width: 100%;
+    background-color: #fcfdff;
+    border-left: solid 1px #acbfe5;
+    border-right: solid 1px #acbfe5;
+    box-shadow: 0px 0px 40px #000000;
+}

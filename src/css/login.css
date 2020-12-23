@@ -1,0 +1,158 @@
+.loginArea
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100%;
+}
+
+.loginArea .options
+{
+    height: 100%;
+    padding: 20px;
+    background-color: #fcfdff;
+    border-right: solid 1px #acbfe5;
+    box-shadow: 0px 0px 40px #000000;
+    z-index: 1;
+}
+
+.loginArea .logo
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    column-gap: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #acbfe5;
+}
+
+.loginArea .register
+{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #acbfe5;
+}
+
+.loginArea .icon
+{
+    height: 40px;
+    width: 40px;
+}
+
+.loginArea .logoTitle
+{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.loginArea .title
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.loginArea .inputGroup
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    margin-bottom: 10px;
+    height: 35px;
+}
+
+.loginArea .passwordInputGroup
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr 0fr;
+    margin-bottom: 10px;
+}
+
+.loginArea label
+{
+    width: 60px;
+    font-weight: bold;
+    display: -webkit-flex !important;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center !important;
+}
+
+.loginArea input
+{
+    padding-left: 10px;
+    border: solid 1px #acbfe5;
+}
+
+.loginArea input:focus
+{
+    box-shadow: 0px 0px 5px #acbfe5;
+}
+
+.loginArea .inputPassword
+{
+    margin-right: 10px;
+}
+
+.loginArea button
+{
+    width: max-content;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px #acbfe5;
+    background-color: #acbfe5;
+    color: #565f72;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.loginArea button:hover
+{
+    background-color: #99aacc;
+}
+
+.loginArea .buttonShow
+{
+    height: 35px;
+}
+
+.loginArea .saveGroup
+{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.loginArea .saveGroup label
+{
+    width: 100%;
+}
+
+.loginArea .checkbox
+{
+    width: 20px;
+    border: solid 1px #acbfe5;
+    cursor: pointer;
+}
+
+.loginArea .message
+{
+    width: max-content;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: solid 1px #cc5151;
+    background-color: #fffcfc;
+    color: #cc5151;
+    align-items: center;
+}
+
+.loginArea .screenshot
+{
+    height: 100%;
+    width: 100%;
+}

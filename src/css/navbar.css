@@ -1,0 +1,66 @@
+.navbarArea
+{
+    position: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0fr 1fr 1fr 1fr 0fr;
+    border-bottom: solid 1px #acbfe5;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.navbarArea .option
+{
+    height: 45px;
+    width: 100%;
+    background-image: linear-gradient(#ffffff, #acbfe5);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbarArea .option:hover
+{
+    background-image: linear-gradient(#ffffff, #99aacc);
+}
+
+.navbarArea .optionLeft
+{
+    border-left: solid 1px #99aacc;
+}
+
+.navbarArea .optionCenter
+{
+    border-left: solid 1px #99aacc;
+    border-right: solid 1px #99aacc;
+}
+
+.navbarArea .optionRight
+{
+    border-right: solid 1px #99aacc;
+}
+
+.navbarArea .optionIcon, .navbarArea .optionBlank
+{
+    width: 80px;
+    height: 45px;
+    background-image: linear-gradient(#1e2533, #3d4a66);
+}
+
+.navbarArea .optionIcon:hover
+{
+    background-image: linear-gradient(#1e2533, #4c5f7f);
+}
+
+.navbarArea .iconBox
+{
+    width: min-content;
+    margin: 0px auto;
+    padding-top: 10px;
+}
+
+.navbarArea .icon
+{
+    height: 25px;
+    width: 25px;
+}

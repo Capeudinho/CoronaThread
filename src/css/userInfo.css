@@ -1,0 +1,125 @@
+.userInfoArea
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+
+.userInfoArea .header
+{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #acbfe5;
+}
+
+.userInfoArea .otherInfo
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.userInfoArea .name
+{
+    height: 25px;
+    font-size: 25px;
+}
+
+.userInfoArea .email, .userInfoArea .totalFollowers, .userInfoArea .score
+{
+    margin-bottom: 10px;
+}
+
+.userInfoArea .statusBox
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr 0fr;
+    column-gap: 10px;
+}
+
+.userInfoArea .status
+{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    color: #565f72;
+    font-style: italic;
+}
+
+.userInfoArea .quote
+{
+    color: #acbfe5;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.userInfoArea .info
+{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.userInfoArea .creationDate
+{
+    margin-bottom: 10px;
+}
+
+.userInfoArea button
+{
+    width: max-content;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px #acbfe5;
+    background-color: #acbfe5;
+    color: #565f72;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.userInfoArea button:hover
+{
+    background-color: #99aacc;
+}
+
+.userInfoArea .deactivated
+{
+    width: max-content;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: solid 1px #cc5151;
+    background-color: #fffcfc;
+    color: #cc5151;
+    align-items: center;
+}
+
+.userInfoArea .message
+{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    padding: 10px;
+    border: solid 1px #cc5151;
+    background-color: #fffcfc;
+    align-items: center;
+}
+
+.userInfoArea .text
+{
+    color: #cc5151;
+}
+
+.userInfoArea .buttonLogin
+{
+    border: solid 1px #e5acac;
+    background-color: #e5acac;
+    color: #725656;
+}
+
+.userInfoArea .buttonLogin:hover
+{
+    background-color: #cc9999;
+}

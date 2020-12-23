@@ -1,0 +1,147 @@
+.postWriteArea .post
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+    padding: 10px;
+    border: solid 1px #acbfe5;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.postWriteArea .title
+{
+    margin-bottom: 10px;
+}
+
+.postWriteArea textarea
+{
+    margin-bottom: 6px;
+}
+
+.postWriteArea .title, .postWriteArea .tagsBox
+{
+    height: 35px;
+    width: 100%;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: solid 1px #cccccc;
+}
+
+.postWriteArea .title:focus, .postWriteArea textarea:focus
+{
+    box-shadow: 0px 0px 5px #cccccc;
+}
+
+.postWriteArea .tagsBox
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+    column-gap: 10px;
+    height: 45px;
+    margin-bottom: 10px;
+    display: -webkit-flex !important;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center !important;
+    background-color: #ffffff;
+}
+
+.postWriteArea .tagsBox:focus-within
+{
+    box-shadow: 0px 0px 5px #cccccc;
+}
+
+.postWriteArea .tag
+{
+    height: 25px;
+    width: min-content;
+    display: -webkit-flex !important;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #bfd4ff;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.postWriteArea .tagText
+{
+    width: 100%;
+    padding-left: 0px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.postWriteArea .textInput
+{
+    width: 100%;
+    border: solid 1px #cccccc;
+    padding: 5px 10px;
+    line-height: 25px;
+    resize: none;
+}
+
+.postWriteArea .bottom
+{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    align-items: flex-end;
+    color: #999999;
+}
+
+.postWriteArea button
+{
+    width: max-content;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px #cccccc;
+    background-color: #cccccc;
+    color: #666666;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.postWriteArea button:hover
+{
+    background-color: #b2b2b2;
+}
+
+.postWriteArea .message
+{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+    padding: 10px;
+    border: solid 1px #cc5151;
+    background-color: #fffcfc;
+    align-items: center;
+}
+
+.postWriteArea .text
+{
+    color: #cc5151;
+}
+
+.postWriteArea .buttonLogin
+{
+    border: solid 1px #e5acac;
+    background-color: #e5acac;
+    color: #725656;
+}
+
+.postWriteArea .buttonLogin:hover
+{
+    background-color: #cc9999;
+}

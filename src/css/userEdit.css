@@ -1,0 +1,137 @@
+.userEditArea
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 80px;
+}
+
+.userEditArea .inputGroup
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    margin-bottom: 10px;
+    height: 35px;
+}
+
+.userEditArea .passwordInputGroup
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr 0fr;
+    margin-bottom: 10px;
+}
+
+.userEditArea label
+{
+    width: 60px;
+    font-weight: bold;
+    display: -webkit-flex !important;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center !important;
+}
+
+.userEditArea input
+{
+    padding-left: 10px;
+    border: solid 1px #acbfe5;
+}
+
+.userEditArea input:focus, .userEditArea textarea:focus
+{
+    box-shadow: 0px 0px 5px #acbfe5;
+}
+
+.userEditArea .inputPassword
+{
+    margin-right: 10px;
+}
+
+.userEditArea button
+{
+    width: min-content;
+    white-space: nowrap;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px #acbfe5;
+    background-color: #acbfe5;
+    color: #565f72;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.userEditArea button:hover
+{
+    background-color: #99aacc;
+}
+
+.userEditArea .buttonShow
+{
+    height: 35px;
+}
+
+.userEditArea .statusLabel
+{
+    height: 35px;
+}
+
+.userEditArea .statusInput
+{
+    width: 100%;
+    border: solid 1px #acbfe5;
+    padding: 5px 10px;
+    line-height: 25px;
+    resize: none;
+}
+
+.userEditArea .statusInputGroup
+{
+    height: 100%;
+}
+
+.userEditArea .buttons
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr 0fr 0fr 0fr;
+    column-gap: 10px;
+}
+
+.userEditArea .message
+{
+    width: max-content;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: solid 1px #51cc51;
+    background-color: #fcfffc;
+    color: #51cc51;
+    align-items: center;
+}
+
+.userEditArea .messageLogin
+{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    padding: 10px;
+    border: solid 1px #cc5151;
+    background-color: #fffcfc;
+    align-items: center;
+}
+
+.userEditArea .text
+{
+    color: #cc5151;
+}
+
+.userEditArea .buttonLogin
+{
+    border: solid 1px #e5acac;
+    background-color: #e5acac;
+    color: #725656;
+}
+
+.userEditArea .buttonLogin:hover
+{
+    background-color: #cc9999;
+}
