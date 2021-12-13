@@ -7,7 +7,7 @@ const app = express ();
 
 mongoose.connect
 (
-    "mongodb+srv://Capeudinho:kenjin202530@cluster0-yh3ut.mongodb.net/coronathread?retryWrites=true&w=majority",
+    "<connectionString>",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
